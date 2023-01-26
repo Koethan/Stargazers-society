@@ -1,0 +1,59 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  width:600px;
+  height:600px;
+  border-radius: 15px;
+  margin-top:65px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+#main-menu{
+  display:flex;
+  justify-content:space-around;
+  margin: auto;
+  padding: 0 40px;
+  text-align: center;
+}
+.container{
+  /* border: 1px solid red; */
+  height: 90%;
+}
+#paragraph{
+  margin-top:10px;
+  margin-right: 10px;
+  padding:40px;
+  font-size: 1.5rem;
+  /* border: 1px solid red; */
+  background: rgba(76, 175, 80, 0.3);
+  border-radius: 15px;
+}
+body{
+  background-image: url('https://media2.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif?cid=ecf05e47cqx5kaut73r7bx2ydeesp94ghhqzrxm3di98biio&rid=giphy.gif&ct=g');
+  background-size: cover;
+  font-family: 'Audiowide', cursive;
+  
+  
+  height: 100vh;
+  padding:0;
+  margin:0;
+  color:whitesmoke;
+}
+h2{
+  text-decoration: underline;
+}
