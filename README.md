@@ -14,7 +14,7 @@ Write a short sentence or two about this project and what it does. Be sure to in
 This a web app created with the NASA Picture of the Day api to fetch data that shows users the certain photo of the day as well as the information that NASA used to describe the photo.
 
 ## Optimizations
-*(optional)*
+
 
 I am going to update it soon to use async/await to get fetch the api data as well as display the date chosen on the page.
 
